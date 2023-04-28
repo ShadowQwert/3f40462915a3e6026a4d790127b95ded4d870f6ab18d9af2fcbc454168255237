@@ -1,7 +1,7 @@
 from steampy.client import SteamClient, Asset
 from steampy.utils import GameOptions, get_key_value_from_url, account_id_to_steam_id
 
-steam_client = SteamClient('3B24111B3C934BD1FED5873AF3664560')
+steam_client = SteamClient('api')
 steam_client.login('pass', 'name', 'steamguard.json')
 
 
